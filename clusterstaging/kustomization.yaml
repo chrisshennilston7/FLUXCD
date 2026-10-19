@@ -13,7 +13,7 @@ patches:
       version: v1
       kind: Deployment
       name: myapp
-  - path: screw.yaml
+  - path: screwedit.yaml
     target:
       group: ""
       version: v1
