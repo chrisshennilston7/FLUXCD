@@ -4,6 +4,7 @@ resources:
 - flux-system
 - new.yaml
 - deploymentchanges.yaml
+- screw.yaml
 
 patches:
   - path: deploymentedit.yaml
