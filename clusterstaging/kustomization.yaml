@@ -4,7 +4,7 @@ resources:
 - flux-system
 - new.yaml
 - deploymentchanges.yaml
-- screw.yaml
+- screwedit.yaml
 
 patches:
   - path: deploymentedit.yaml
@@ -13,3 +13,9 @@ patches:
       version: v1
       kind: Deployment
       name: myapp
+  - path: screw.yaml
+    target:
+      group: ""
+      version: v1
+      kind: Service
+      name: amruth
