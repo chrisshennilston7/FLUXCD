@@ -5,3 +5,10 @@ resources:
 - new.yaml
 - deploymentchanges.yaml
 
+patches:
+  - path: deploymentedit.yaml
+    target:
+      group: apps
+      version: v1
+      kind: Deployments
+      name: myapp
