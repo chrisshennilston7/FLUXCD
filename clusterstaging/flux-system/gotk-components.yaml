@@ -349,7 +349,7 @@ spec:
       type: string
     name: v1
     schema:
-      openAPIV3Schema:
+ custom     openAPIV3Schema:
         description: Bucket is the Schema for the buckets API.
         properties:
           apiVersion:

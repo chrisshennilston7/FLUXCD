@@ -5,6 +5,7 @@ resources:
 - new.yaml
 - deploymentchanges.yaml
 - screwedit.yaml
+- helm/podinfo
 
 patches:
   - path: deploymentedit.yaml
